@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Run PEP 8",
+      "setup": "sudo -H pip3 install pycodestyle",
+      "run": "pycodestyle .",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 3,
+      "points": 1
+    }
+  ]
+}
